@@ -1,23 +1,16 @@
 {
-  "name": "kakao_alarm",
+  "name": "my-chatbot",
   "version": "1.0.0",
-  "description": "내가 전에 보낸 메시지를 그대로 일정 시간에 보내주는 챗봇",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/minkim9766/Kakao_Alarm.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/minkim9766/Kakao_Alarm/issues"
-  },
-  "homepage": "https://github.com/minkim9766/Kakao_Alarm#readme",
   "dependencies": {
-    "express": "^5.1.0",
-    "node-cron": "^4.2.1"
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
   }
 }
